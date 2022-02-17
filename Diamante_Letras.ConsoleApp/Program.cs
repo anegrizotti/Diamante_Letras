@@ -38,10 +38,10 @@ namespace Diamante_Letras.ConsoleApp
 
             do
             {   //controle de entrada
-                Console.Write("Digite um número impar entre 3 e 25: ");
+                Console.Write("Digite um número impar entre 3 e 51: ");
                 int alturaDoDiamante = int.Parse(Console.ReadLine());
 
-                while (alturaDoDiamante < 3 || alturaDoDiamante > 25 || alturaDoDiamante % 2 == 0)
+                while (alturaDoDiamante < 3 || alturaDoDiamante > 51 || alturaDoDiamante % 2 == 0)
                 {
                     Console.Write("Entrada inválida! um número impar entre 3 e 25: ");
                     alturaDoDiamante = int.Parse(Console.ReadLine());
